@@ -16,11 +16,10 @@
 | 6 | Demostrador IoT real o emulado | `06-iot-demostrador/` | ✅ | IoT y código 15 % |
 | 7 | Código documentado de análisis y visualización | `07-codigo-analitica/` | ✅ | IoT y código 15 % |
 | 8 | Asistente local RAG con corpus, citas y pruebas | `08-asistente-rag/` | 🟡 Falta ejecutar/validar | IA y validación 10 % |
-| 9 | Producto visual | `09-producto-visual/` | 🟡 PENDIENTE | Imagen/video/3D 10 % |
-| 10 | Video corto | `10-video/` | 🟡 PENDIENTE (guion listo) | Imagen/video/3D 10 % |
-| 11 | Modelo 3D depurado + fuente | `11-modelo-3d/` | 🟡 PENDIENTE | Imagen/video/3D 10 % |
-| 12 | Evaluación financiera, sensibilidad y plan | `12-evaluacion-financiera/` | ✅ | Viabilidad 10 % |
-| 13 | Informe, resumen, repositorio y sustentación | `13-informe-sustentacion/` | ✅ + guion listo | Informe 10 % |
+| 9 | Producto visual | `09-producto-visual/` | 🟡 PENDIENTE | Imagen/3D 10 % |
+| 10 | Modelo 3D depurado + fuente | `10-modelo-3d/` | 🟡 PENDIENTE | Imagen/3D 10 % |
+| 11 | Evaluación financiera, sensibilidad y plan | `11-evaluacion-financiera/` | ✅ | Viabilidad 10 % |
+| 12 | Informe, resumen, repositorio y sustentación | `12-informe-sustentacion/` | ✅ | Informe 10 % |
 
 ✅ = evidencia real integrada · 🟡 = estructura lista, falta producto o validación.
 
@@ -33,7 +32,7 @@
 | Solución de eficiencia, renovables y circularidad | 20 % |
 | Sistema IoT, código y analítica | 15 % |
 | Asistente local de IA y validación | 10 % |
-| Imagen, video y modelo 3D | 10 % |
+| Imagen y modelo 3D | 10 % |
 | Viabilidad, riesgos y plan de implementación | 10 % |
 | Informe, repositorio y sustentación | 10 % |
 
@@ -45,8 +44,8 @@
 4. **Diseñamos** 2,2 kWp + batería + seguidor Arduino (`04-renovables-almacenamiento/` y `06-iot-demostrador/`).
 5. **Cuantificamos** carbono (0,29 t CO₂/año) y circularidad de baterías/paneles (`05-circularidad-carbono/`).
 6. **Validamos** con código reproducible y dashboards (`07-codigo-analitica/`).
-7. **Evaluamos** retorno del sistema individual y de la propuesta compartida (`12-evaluacion-financiera/`).
-8. **Comunicamos** en informe y guion de sustentación (`13-informe-sustentacion/`).
+7. **Evaluamos** retorno del sistema individual y de la propuesta compartida (`11-evaluacion-financiera/`).
+8. **Comunicamos** en el informe y el resumen ejecutivo (`12-informe-sustentacion/`).
 
 ## Autenticidad y seguridad
 
@@ -57,11 +56,11 @@
 
 ## Checklist de cierre
 
-- [x] Los entregables 1–7, 12 y 13 tienen evidencia real.
+- [x] Los entregables 1–7, 11 y 12 tienen evidencia real.
 - [x] Cada dato tiene origen, unidad y método.
 - [x] El IoT se demuestra con código Arduino y dashboards.
 - [x] La evaluación financiera incluye tres escenarios y sensibilidad.
 - [ ] Ejecutar y documentar el asistente RAG con citas y pruebas negativas.
-- [ ] Generar imagen técnica, video y modelo 3D con ficha de procedencia.
+- [ ] Generar imagen técnica y modelo 3D con ficha de procedencia.
 - [ ] Completar bitácora semanal y declaración de IA firmada por cada integrante.
 - [ ] Verificar que el repositorio clonado reproduce los resultados.
