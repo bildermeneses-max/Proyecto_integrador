@@ -12,7 +12,7 @@ Infografía técnica de una sola lámina con tres paneles:
 3. **Oportunidad:** 4,78 kWh/día de excedente → segunda vivienda → retorno 3,9–6,8 años.
 
 Debe construirse con las cifras de `../02-linea-base/linea_base.md` y
-`../12-evaluacion-financiera/evaluacion_financiera.md`, sin datos nuevos.
+`../11-evaluacion-financiera/evaluacion_financiera.md`, sin datos nuevos.
 
 ## Ficha de procedencia (completar al generar)
 
