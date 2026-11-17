@@ -73,9 +73,14 @@
 
 ### Semana 10 — Integración
 
-- **Actividades:** organización del repositorio y verificación de trazabilidad.
-- **Evidencia:** este archivo y el README general.
-- **Pendiente:** RAG ejecutado con pruebas, validación final del docente y ajustes del jurado.
+- **Actividades:** organización del repositorio y verificación de trazabilidad; incorporación del
+  código local del dashboard web y documentación de su deploy público.
+- **Evidencia:** este archivo, el README general y
+  `modulo-7-proyecto-integrador/07-codigo-analitica/dashboard_vercel/`.
+- **Deploy verificado:** `https://energia-circular.vercel.app/` responde 200 y sirve el CSV;
+  `GET /api/kpis` devuelve 500 y la interfaz muestra error de carga. Estado registrado sin ocultarlo.
+- **Pendiente:** corregir las funciones serverless del deploy, RAG ejecutado con pruebas,
+  validación final del docente y ajustes del jurado.
 
 ## Declaración transparente de uso de IA
 
