@@ -11,8 +11,8 @@ Copiar a `corpus/` los documentos que se usarán como base de conocimiento, con 
 - `../01-caracterizacion/caracterizacion.md` — caso y normativa.
 - `../02-linea-base/linea_base.md` — datos y línea base.
 - `../04-renovables-almacenamiento/diseno_fotovoltaico.md` — supuestos y balance.
-- `../12-evaluacion-financiera/evaluacion_financiera.md` — escenarios.
-- `../13-informe-sustentacion/informe_tecnico.md` — informe completo.
+- `../11-evaluacion-financiera/evaluacion_financiera.md` — escenarios.
+- `../12-informe-sustentacion/informe_tecnico.md` — informe completo.
 
 > No cargar datos personales o comerciales reales sin autorización y anonimización.
 
