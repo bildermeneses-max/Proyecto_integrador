@@ -18,7 +18,8 @@ mediciones horarias, cuadernos de EDA/red neuronal y código Gradio/Streamlit.
 | Demostrador IoT (Arduino + dashboards) y analítica | ✅ Código y documentación incluidos |
 | Informe técnico y resumen ejecutivo | ✅ Incluidos |
 | Asistente RAG ejecutado con citas y pruebas | 🟡 Estructura y plan listos; falta ejecutar y validar |
-| Producto visual y modelo 3D | 🟡 Pendiente de generar y documentar procedencia |
+| Producto visual (infografía real del caso) | ✅ Imagen y ficha de procedencia incluidas |
+| Modelo 3D depurado + fuente | 🟡 Pendiente de generar y documentar procedencia |
 
 > **Seguridad:** el cuaderno original `Untitled17.ipynb` contenía un token de ngrok hardcodeado.
 > Las copias versionadas aquí están saneadas y usan `NGROK_AUTHTOKEN` por variable de entorno.
