@@ -7,6 +7,7 @@
 | `Untitled17_sanitizado.ipynb` | Cuaderno de Gradio/Streamlit y despliegue | `Untitled17.ipynb` (token de ngrok eliminado) |
 | `nota_modelo_red_neuronal.md` | Interpretación correcta de las métricas del modelo | Nuevo |
 | `requirements.txt` | Dependencias mínimas | Nuevo |
+| `dashboard_vercel/` | Código local Gradio/HF + configuración Vercel; documentación del deploy público | `gradio_dashboard/vercel_deploy/` (token saneado) |
 
 ## Ejecución
 
@@ -18,6 +19,13 @@ python analisis_consumo.py
 El script imprime todas las cifras de la línea base y guarda un resumen en `resultados/`
 (dentro de esta carpeta) cuando se ejecuta. El dataset se lee desde
 `../02-linea-base/datos/` mediante ruta relativa al repositorio.
+
+## Dashboard desplegado
+
+El sitio público `https://energia-circular.vercel.app/` responde 200 y sirve el CSV, pero sus
+funciones serverless presentan un error real (`/api/kpis` → 500). El código local incorporado en
+`dashboard_vercel/` corresponde a la alternativa Gradio/HF Spaces, no al fuente Next.js del sitio
+en vivo. Detalles y verificación: `dashboard_vercel/README.md`.
 
 ## Saneamiento de secretos
 
