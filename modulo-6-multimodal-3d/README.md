@@ -1,4 +1,4 @@
-# Módulo 6 — IA generativa multimodal, video, 2D a 3D y gemelos digitales
+# Módulo 6 — IA generativa multimodal, 2D a 3D y gemelos digitales
 
 **Carga:** 8 h teóricas + 10 h prácticas = 18 h · **Peso en evaluación:** 13 %
 
@@ -11,16 +11,15 @@ espectacularidad visual.
 ## Contenidos clave
 
 Difusión, prompts estructurados, semilla, control de composición, image-to-image, inpainting,
-ControlNet, flujos nodales, text-to-video, image-to-video, interpolación, consistencia temporal,
-audio, fotogrametría, reconstrucción 2D a 3D, mallas, topología, texturas PBR, UV, formatos
-GLB/OBJ/STL, Blender, animación, realidad aumentada y gemelo digital simplificado.
+ControlNet, flujos nodales, fotogrametría, reconstrucción 2D a 3D, mallas, topología, texturas
+PBR, UV, formatos GLB/OBJ/STL, Blender, animación, realidad aumentada y gemelo digital
+simplificado.
 
 ## Prácticas y laboratorios
 
 - Instalación y administración de paquetes de imagen con Stability Matrix.
 - Flujo de generación y edición en ComfyUI con control de composición.
 - Infografías y escenas para una propuesta energética o circular.
-- Video corto de capacitación o explicación de funcionamiento.
 - Conversión de fotografía de equipo a modelo 3D con TripoSR o Stable Fast 3D.
 - Reconstrucción multivista por fotogrametría (Meshroom o COLMAP).
 - Depuración de malla, escala, texturas y animación en Blender.
@@ -29,12 +28,11 @@ GLB/OBJ/STL, Blender, animación, realidad aumentada y gemelo digital simplifica
 
 ## Herramientas sugeridas
 
-Stability Matrix, ComfyUI, Stable Diffusion · Wan 2.1 u otro modelo abierto de video · TripoSR, Stable
-Fast 3D, Hunyuan3D en modo de baja memoria · Blender, FreeCAD, OpenSCAD, Meshroom, COLMAP · Audacity,
-FFmpeg y herramientas locales de narración.
+Stability Matrix, ComfyUI, Stable Diffusion · TripoSR, Stable Fast 3D, Hunyuan3D en modo
+de baja memoria · Blender, FreeCAD, OpenSCAD, Meshroom, COLMAP.
 
 Rutas por hardware: básica (CPU, modelos pequeños), intermedia (RTX 3050, flujos optimizados),
-avanzada (servidor compartido para video y 3D pesado).
+avanzada (servidor compartido para 3D pesado).
 
 ## Contextualización territorial
 
@@ -45,19 +43,18 @@ organizaciones culturales.
 
 ## Evidencia de aprendizaje exigida
 
-> Paquete multimodal con imagen, video, modelo 3D, archivo fuente, ficha de procedencia y criterios de
+> Paquete multimodal con imagen, modelo 3D, archivo fuente, ficha de procedencia y criterios de
 > validación técnica.
 
 ## Aporte al proyecto integrador
 
-Alimenta **"Imagen, video y modelo 3D" (10 %)**. Copiar a las carpetas `09-producto-visual/`,
-`10-video/` y `11-modelo-3d/`.
+Alimenta **"Imagen y modelo 3D" (10 %)**. Copiar a las carpetas `09-producto-visual/` y
+`10-modelo-3d/`.
 
 ## Checklist
 
 - [ ] Imagen técnica o infografía con propósito definido.
 - [ ] Archivo fuente del flujo (JSON de ComfyUI, proyecto, prompt, semilla y parámetros).
-- [ ] Video corto con guion, narración y licencia de audio/música.
 - [ ] Modelo 3D con malla depurada, escala real y materiales.
 - [ ] Archivo fuente del modelo (BLEND, OBJ, GLB o similar) y método empleado.
 - [ ] Ficha de procedencia: herramienta, modelo, versión, parámetros y permisos.
