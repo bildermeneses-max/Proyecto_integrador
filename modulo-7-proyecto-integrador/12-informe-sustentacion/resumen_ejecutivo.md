@@ -48,7 +48,8 @@ cotizaciones antes de invertir.
 ## Estado de entregables
 
 Listos: caracterización, línea base, medidas, diseño FV, circularidad, IoT/código, finanzas e informe.
-Pendientes de completar: asistente RAG ejecutado, imagen técnica y modelo 3D.
+Listo además: producto visual (`09-producto-visual/producto_visual_el_tambo.jpeg`).
+Pendientes de completar: asistente RAG ejecutado y modelo 3D.
 
 > Nota de seguridad: el cuaderno original contenía un token de ngrok expuesto; las copias versionadas están
 > saneadas y el token debe revocarse en su proveedor.
