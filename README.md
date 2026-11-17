@@ -16,6 +16,7 @@ mediciones horarias, cuadernos de EDA/red neuronal y código Gradio/Streamlit.
 | --- | --- |
 | Caracterización, línea base, medidas, diseño FV, circularidad, finanzas | ✅ Con datos reales del informe |
 | Demostrador IoT (Arduino + dashboards) y analítica | ✅ Código y documentación incluidos |
+| Dashboard web desplegado en Vercel | ✅ Publicado y verificado; analítica con error 500 pendiente de corregir |
 | Informe técnico y resumen ejecutivo | ✅ Incluidos |
 | Asistente RAG ejecutado con citas y pruebas | 🟡 Estructura y plan listos; falta ejecutar y validar |
 | Producto visual (infografía real del caso) | ✅ Imagen y ficha de procedencia incluidas |
