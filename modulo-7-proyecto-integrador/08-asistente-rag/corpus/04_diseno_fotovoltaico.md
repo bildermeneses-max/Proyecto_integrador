@@ -69,5 +69,5 @@ de pruebas.
 
 El excedente de 4,78 kWh/día motivó la propuesta de **compartir la generación con una segunda vivienda**
 vecina (demanda conjunta 9,66 kWh/día vs. 9,85 kWh/día generados). Los escenarios financieros de esa
-propuesta están en `../12-evaluacion-financiera/evaluacion_financiera.md`. Su viabilidad legal depende de
+propuesta están en `../11-evaluacion-financiera/evaluacion_financiera.md`. Su viabilidad legal depende de
 validar la autogeneración colectiva con el operador de red.
