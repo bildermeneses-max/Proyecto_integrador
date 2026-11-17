@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>⚡ Consumo Eléctrico Rural · El Tambo, Cauca</title>
+  <meta name="description" content="Dashboard analítico de consumo eléctrico rural y simulador de tarifas para fincas en El Tambo, Cauca." />
+  <style>
+    :root { --verde:#11998e; --verde2:#38ef7d; --oscuro:#10231f; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color:var(--oscuro); background:#f6faf8; }
+    header { background:linear-gradient(135deg,var(--verde),var(--verde2)); color:#fff; padding:56px 20px 48px; text-align:center; }
+    header h1 { margin:0; font-size:clamp(28px,5vw,44px); line-height:1.15; }
+    header p { margin:14px auto 0; max-width:680px; font-size:17px; opacity:.92; }
+    .cta { display:inline-block; margin-top:26px; padding:14px 28px; border-radius:999px; background:#fff; color:#0b6b54; font-weight:700; text-decoration:none; box-shadow:0 8px 24px rgba(0,0,0,.12); }
+    .cta:hover { transform:translateY(-2px); }
+    main { max-width:1080px; margin:-28px auto 60px; padding:0 20px; }
+    .kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:16px; }
+    .card { background:#fff; border-radius:14px; padding:20px; box-shadow:0 6px 20px rgba(16,35,31,.08); border-left:5px solid var(--verde); }
+    .card .label { font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:#4b7a6f; }
+    .card .value { font-size:28px; font-weight:800; margin-top:6px; color:#0b5e49; }
+    .seccion { margin-top:48px; }
+    .seccion h2 { font-size:24px; }
+    .tabs { display:flex; flex-wrap:wrap; gap:10px; list-style:none; padding:0; }
+    .tabs li { background:#e7f5ee; color:#0b5e49; padding:10px 14px; border-radius:10px; font-size:14px; }
+    footer { text-align:center; padding:28px 20px 40px; color:#5b7a72; font-size:14px; }
+    code { background:#eaf3ef; padding:2px 6px; border-radius:5px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>⚡ Consumo Eléctrico Rural</h1>
+    <p>Monitoreo energético y simulación de carga para fincas en <strong>El Tambo, Cauca</strong>. Datos reales de 1000 registros horarios.</p>
+    <a class="cta" href="/app">Abrir dashboard interactivo →</a>
+  </header>
+
+  <main>
+    <section class="kpis" aria-label="Indicadores del dataset">
+      <div class="card"><div class="label">Registros</div><div class="value">1.000</div></div>
+      <div class="card"><div class="label">Energía total</div><div class="value">201,2 kWh</div></div>
+      <div class="card"><div class="label">Pico de demanda</div><div class="value">2.541,9 W</div></div>
+      <div class="card"><div class="label">Promedio</div><div class="value">201,2 W</div></div>
+      <div class="card"><div class="label">Equipo líder</div><div class="value">Nevera (77,9 W)</div></div>
+    </section>
+
+    <section class="seccion">
+      <h2>Qué incluye el dashboard</h2>
+      <ul class="tabs">
+        <li>📖 Contexto</li>
+        <li>📊 Datos filtrables</li>
+        <li>📈 Estadísticas</li>
+        <li>🔍 Análisis univariado</li>
+        <li>🔗 Análisis bivariado</li>
+        <li>⏰ Perfil diario</li>
+        <li>🗺️ Correlaciones</li>
+        <li>💰 Simulador de tarifa</li>
+      </ul>
+    </section>
+
+    <section class="seccion">
+      <h2>Arquitectura</h2>
+      <p>La interfaz se sirve desde Vercel. El motor Gradio corre en un <em>Hugging Face Space</em> y se sirve bajo <code>/app</code> mediante un rewrite. Así se evita el límite de Vercel con procesos persistentes y WebSockets.</p>
+    </section>
+  </main>
+
+  <footer>Dataset: consumo eléctrico rural El Tambo, Cauca · 2025</footer>
+</body>
+</html>
