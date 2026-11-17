@@ -68,7 +68,8 @@
 
 - **Actividades:** informe técnico y resumen ejecutivo.
 - **Evidencia:** `12-informe-sustentacion/`.
-- **Pendiente:** imagen técnica y modelo 3D con fichas de procedencia.
+- **Producto visual:** `09-producto-visual/producto_visual_el_tambo.jpeg` y su ficha de procedencia.
+- **Pendiente:** modelo 3D con ficha de procedencia.
 
 ### Semana 10 — Integración
 
@@ -103,4 +104,5 @@ pendiente y debe completarse antes de la sustentación.
 - [x] Incidente de token documentado y copias saneadas.
 - [ ] Declaración firmada por cada integrante.
 - [ ] Validación humana de IA completada.
-- [ ] RAG, imagen y modelo 3D incorporados.
+- [x] Producto visual incorporado con ficha de procedencia.
+- [ ] RAG y modelo 3D incorporados.
