@@ -16,7 +16,7 @@
 | 6 | Demostrador IoT real o emulado | `06-iot-demostrador/` | ✅ | IoT y código 15 % |
 | 7 | Código documentado de análisis y visualización | `07-codigo-analitica/` | ✅ | IoT y código 15 % |
 | 8 | Asistente local RAG con corpus, citas y pruebas | `08-asistente-rag/` | 🟡 Falta ejecutar/validar | IA y validación 10 % |
-| 9 | Producto visual | `09-producto-visual/` | 🟡 PENDIENTE | Imagen/3D 10 % |
+| 9 | Producto visual (infografía real) | `09-producto-visual/` | ✅ | Imagen/3D 10 % |
 | 10 | Modelo 3D depurado + fuente | `10-modelo-3d/` | 🟡 PENDIENTE | Imagen/3D 10 % |
 | 11 | Evaluación financiera, sensibilidad y plan | `11-evaluacion-financiera/` | ✅ | Viabilidad 10 % |
 | 12 | Informe, resumen, repositorio y sustentación | `12-informe-sustentacion/` | ✅ | Informe 10 % |
@@ -61,6 +61,7 @@
 - [x] El IoT se demuestra con código Arduino y dashboards.
 - [x] La evaluación financiera incluye tres escenarios y sensibilidad.
 - [ ] Ejecutar y documentar el asistente RAG con citas y pruebas negativas.
-- [ ] Generar imagen técnica y modelo 3D con ficha de procedencia.
+- [x] Producto visual incorporado con ficha de procedencia.
+- [ ] Generar modelo 3D con ficha de procedencia.
 - [ ] Completar bitácora semanal y declaración de IA firmada por cada integrante.
 - [ ] Verificar que el repositorio clonado reproduce los resultados.
