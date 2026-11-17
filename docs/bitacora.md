@@ -62,13 +62,13 @@
 ### Semana 8 — Viabilidad
 
 - **Actividades:** inversión referencial, ahorro, retorno y propuesta de autogeneración compartida.
-- **Evidencia:** `12-evaluacion-financiera/evaluacion_financiera.md`; `escenarios.csv`; `13-informe-sustentacion/idea_solucion_original.docx`.
+- **Evidencia:** `11-evaluacion-financiera/evaluacion_financiera.md`; `escenarios.csv`; `12-informe-sustentacion/idea_solucion_original.docx`.
 
 ### Semana 9 — Comunicación
 
-- **Actividades:** informe técnico, resumen ejecutivo y guion de sustentación por bloques.
-- **Evidencia:** `13-informe-sustentacion/`; `docs/presentacion.md`.
-- **Pendiente:** imagen técnica, video y modelo 3D con fichas de procedencia.
+- **Actividades:** informe técnico y resumen ejecutivo.
+- **Evidencia:** `12-informe-sustentacion/`.
+- **Pendiente:** imagen técnica y modelo 3D con fichas de procedencia.
 
 ### Semana 10 — Integración
 
@@ -94,7 +94,7 @@ pendiente y debe completarse antes de la sustentación.
 | --- | --- | --- | --- | --- |
 | `dataset_consumo_electrico_rural_ElTambo_Cauca.csv` | Medición/serie temporal compartida por el equipo | 2025-01-01 a 2025-02-11 | W y kWh por hora | Línea base, Pareto, perfil y dashboards |
 | `informe_tecnico_original.docx` | Elaborado por el equipo | Noviembre 2026 | — | Informe fuente |
-| `idea_solucion_original.docx` | Elaborado por el equipo | Noviembre 2026 | — | Propuesta y guion |
+| `idea_solucion_original.docx` | Elaborado por el equipo | Noviembre 2026 | — | Propuesta de solución |
 
 ## Checklist de cierre
 
@@ -103,4 +103,4 @@ pendiente y debe completarse antes de la sustentación.
 - [x] Incidente de token documentado y copias saneadas.
 - [ ] Declaración firmada por cada integrante.
 - [ ] Validación humana de IA completada.
-- [ ] RAG, imagen, video y modelo 3D incorporados.
+- [ ] RAG, imagen y modelo 3D incorporados.
