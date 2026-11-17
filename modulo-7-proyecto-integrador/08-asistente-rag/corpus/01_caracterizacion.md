@@ -48,7 +48,7 @@ híbrido con seguidor de un eje controlado por Arduino Uno que cubra su demanda.
 - Incluye: auditoría de energía activa, USE, línea base, diseño FV, seguidor conceptual, dashboards,
   carbono básico y evaluación financiera referencial.
 - No incluye: diseño eléctrico legal firmado, certificación RETIE, medición de irradiancia en sitio,
-  montaje del seguidor, RAG ejecutado ni activos 3D/multimodales (pendientes).
+  montaje del seguidor, RAG ejecutado ni modelo 3D (pendientes). El producto visual sí está incluido.
 
 ## Restricciones y supuestos declarados
 
