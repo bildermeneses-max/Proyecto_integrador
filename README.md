@@ -16,9 +16,9 @@ mediciones horarias, cuadernos de EDA/red neuronal y código Gradio/Streamlit.
 | --- | --- |
 | Caracterización, línea base, medidas, diseño FV, circularidad, finanzas | ✅ Con datos reales del informe |
 | Demostrador IoT (Arduino + dashboards) y analítica | ✅ Código y documentación incluidos |
-| Informe técnico, resumen ejecutivo y guion de sustentación | ✅ Incluidos |
+| Informe técnico y resumen ejecutivo | ✅ Incluidos |
 | Asistente RAG ejecutado con citas y pruebas | 🟡 Estructura y plan listos; falta ejecutar y validar |
-| Producto visual, video y modelo 3D | 🟡 Pendiente de generar y documentar procedencia |
+| Producto visual y modelo 3D | 🟡 Pendiente de generar y documentar procedencia |
 
 > **Seguridad:** el cuaderno original `Untitled17.ipynb` contenía un token de ngrok hardcodeado.
 > Las copias versionadas aquí están saneadas y usan `NGROK_AUTHTOKEN` por variable de entorno.
@@ -33,8 +33,8 @@ mediciones horarias, cuadernos de EDA/red neuronal y código Gradio/Streamlit.
 | 3 | Renovables, almacenamiento y comunidades energéticas | 18 | 12 % | Predimensionamiento y balance |
 | 4 | Economía circular, ciclo de vida y carbono | 16 | 12 % | Mapa circular y carbono |
 | 5 | IA local, datos, RAG y código | 18 | 15 % | Código, dashboards y asistente |
-| 6 | IA generativa multimodal, video, 2D a 3D | 18 | 13 % | Imagen, video y modelo 3D |
-| 7 | Proyecto integrador | 20 | 25 % | 13 entregables + informe y sustentación |
+| 6 | IA generativa multimodal, 2D a 3D | 18 | 13 % | Imagen y modelo 3D |
+| 7 | Proyecto integrador | 20 | 25 % | 12 entregables + informe y sustentación |
 | **Total** | | **120** | **100 %** | |
 
 La progresión es deliberada: los módulos 1–4 construyen criterio energético, normativo y circular;
@@ -48,8 +48,7 @@ el 5 aporta datos e IA local; el 6 produce comunicación multimodal; el 7 integr
 ├── docs/
 │   ├── rubrica.md
 │   ├── plan_de_trabajo.md
-│   ├── bitacora.md
-│   └── presentacion.md
+│   └── bitacora.md
 ├── modulo-1-transicion-energetica/ ... modulo-6-multimodal-3d/
 └── modulo-7-proyecto-integrador/
     ├── 01-caracterizacion/
@@ -61,13 +60,12 @@ el 5 aporta datos e IA local; el 6 produce comunicación multimodal; el 7 integr
     ├── 07-codigo-analitica/      ← cuadernos saneados y análisis reproducible
     ├── 08-asistente-rag/
     ├── 09-producto-visual/
-    ├── 10-video/
-    ├── 11-modelo-3d/
-    ├── 12-evaluacion-financiera/
-    └── 13-informe-sustentacion/  ← informe original, resumen y guion
+    ├── 10-modelo-3d/
+    ├── 11-evaluacion-financiera/
+    └── 12-informe-sustentacion/  ← informe original y resumen
 ```
 
-Cada módulo tiene su `README.md`. El README del módulo 7 mapea los 13 entregables a su carpeta,
+Cada módulo tiene su `README.md`. El README del módulo 7 mapea los 12 entregables a su carpeta,
 archivo y criterio de la rúbrica.
 
 ## Resultados centrales del caso
