@@ -13,7 +13,7 @@ la carpeta del módulo correspondiente y alimenta el proyecto integrador.
 | 6 | Economía circular y carbono | 12 | Flujos, ciclo de vida, circularidad, emisiones y modelo de negocio | `modulo-4-economia-circular-carbono/evidencias/` |
 | 7 | IA local y RAG | 12 | GPT4All, AnythingLLM, Ollama, corpus, pruebas y privacidad | `modulo-5-ia-local-rag-codigo/evidencias/` |
 | 8 | Código, aplicaciones y agentes | 12 | Python, API local, Streamlit, pronóstico, visualización y documentación | `modulo-5-ia-local-rag-codigo/evidencias/` |
-| 9 | Imagen, video y 2D a 3D | 12 | Stability Matrix, ComfyUI, Blender, fotogrametría y pieza audiovisual | `modulo-6-multimodal-3d/evidencias/` |
+| 9 | Imagen y 2D a 3D | 12 | Stability Matrix, ComfyUI, Blender y fotogrametría | `modulo-6-multimodal-3d/evidencias/` |
 | 10 | Integración y sustentación | 12 | Validación, evaluación financiera, demostración, repositorio y defensa final | `modulo-7-proyecto-integrador/` |
 
 ## Hitos de control
@@ -24,7 +24,7 @@ la carpeta del módulo correspondiente y alimenta el proyecto integrador.
 | Línea base cerrada | 2–3 | Datos con origen, unidades, fecha y método; indicadores calculados |
 | Solución dimensionada | 4–6 | Predimensionamiento + mapa circular + supuestos documentados |
 | Prototipo funcionando | 7–9 | IoT, código y RAG demostrables con pruebas |
-| Paquete multimodal listo | 9 | Imagen, video, modelo 3D y fichas de procedencia |
+| Paquete multimodal listo | 9 | Imagen, modelo 3D y fichas de procedencia |
 | Sustentación | 10 | Informe, repositorio y defensa con coherencia problema–evidencia |
 
 ## Regla de trazabilidad
