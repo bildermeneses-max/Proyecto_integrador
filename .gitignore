@@ -1,0 +1,20 @@
+# Secretos y credenciales
+*.token
+.env
+ngrok_token.txt
+**/*ngrok*token*
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Archivos grandes generados (los fuentes sí se versionan)
+*.log
