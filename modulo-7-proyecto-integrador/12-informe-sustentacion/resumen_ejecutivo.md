@@ -49,7 +49,10 @@ cotizaciones antes de invertir.
 
 Listos: caracterización, línea base, medidas, diseño FV, circularidad, IoT/código, finanzas e informe.
 Listo además: producto visual (`09-producto-visual/producto_visual_el_tambo.jpeg`).
-Pendientes de completar: asistente RAG ejecutado y modelo 3D.
+Listo además: dashboard web desplegado en `https://energia-circular.vercel.app/` y su código local
+en `07-codigo-analitica/dashboard_vercel/` (deploy accesible; analítica con error 500 documentado).
+Pendientes de completar: asistente RAG ejecutado, modelo 3D y corrección de las funciones
+serverless del deploy.
 
 > Nota de seguridad: el cuaderno original contenía un token de ngrok expuesto; las copias versionadas están
 > saneadas y el token debe revocarse en su proveedor.
