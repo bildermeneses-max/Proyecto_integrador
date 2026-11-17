@@ -14,7 +14,7 @@
 | 4 | Alternativa renovable y almacenamiento | `04-renovables-almacenamiento/diseno_fotovoltaico.md` | ✅ | Solución 20 % |
 | 5 | Circularidad, ACV simplificado y carbono | `05-circularidad-carbono/circularidad_carbono.md` | ✅ | Solución 20 % |
 | 6 | Demostrador IoT real o emulado | `06-iot-demostrador/` | ✅ | IoT y código 15 % |
-| 7 | Código documentado de análisis y visualización | `07-codigo-analitica/` | ✅ | IoT y código 15 % |
+| 7 | Código documentado de análisis y visualización | `07-codigo-analitica/` (+ `dashboard_vercel/`) | ✅ Código local; deploy con API 500 | IoT y código 15 % |
 | 8 | Asistente local RAG con corpus, citas y pruebas | `08-asistente-rag/` | 🟡 Falta ejecutar/validar | IA y validación 10 % |
 | 9 | Producto visual (infografía real) | `09-producto-visual/` | ✅ | Imagen/3D 10 % |
 | 10 | Modelo 3D depurado + fuente | `10-modelo-3d/` | 🟡 PENDIENTE | Imagen/3D 10 % |
@@ -43,7 +43,9 @@
 3. **Priorizamos** mover la molienda al mediodía y mantenimiento de nevera (`03-medidas-eficiencia/`).
 4. **Diseñamos** 2,2 kWp + batería + seguidor Arduino (`04-renovables-almacenamiento/` y `06-iot-demostrador/`).
 5. **Cuantificamos** carbono (0,29 t CO₂/año) y circularidad de baterías/paneles (`05-circularidad-carbono/`).
-6. **Validamos** con código reproducible y dashboards (`07-codigo-analitica/`).
+6. **Validamos** con código reproducible y dashboards (`07-codigo-analitica/`); el deploy público
+   está en `https://energia-circular.vercel.app/` y su estado real se documenta en
+   `07-codigo-analitica/dashboard_vercel/README.md`.
 7. **Evaluamos** retorno del sistema individual y de la propuesta compartida (`11-evaluacion-financiera/`).
 8. **Comunicamos** en el informe y el resumen ejecutivo (`12-informe-sustentacion/`).
 
@@ -62,6 +64,8 @@
 - [x] La evaluación financiera incluye tres escenarios y sensibilidad.
 - [ ] Ejecutar y documentar el asistente RAG con citas y pruebas negativas.
 - [x] Producto visual incorporado con ficha de procedencia.
+- [x] Código local del dashboard y deploy público documentados con su estado real.
+- [ ] Corregir las funciones serverless del deploy (`/api/kpis` responde 500).
 - [ ] Generar modelo 3D con ficha de procedencia.
 - [ ] Completar bitácora semanal y declaración de IA firmada por cada integrante.
 - [ ] Verificar que el repositorio clonado reproduce los resultados.
