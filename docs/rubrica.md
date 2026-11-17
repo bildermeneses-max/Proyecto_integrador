@@ -11,7 +11,7 @@ Fuente: `Diplomado_Energia_Circular_Inteligente_5_0 (1).pdf`, secciones 5, 6.2, 
 | 3 | Energías renovables, almacenamiento y comunidades energéticas | 8 | 10 | 18 |
 | 4 | Economía circular, ciclo de vida y gestión de carbono | 8 | 8 | 16 |
 | 5 | Inteligencia artificial local, datos, RAG y desarrollo de código | 8 | 10 | 18 |
-| 6 | IA generativa multimodal, video, 2D a 3D y gemelos digitales | 8 | 10 | 18 |
+| 6 | IA generativa multimodal, 2D a 3D y gemelos digitales | 8 | 10 | 18 |
 | 7 | Proyecto integrador de Energía Circular Inteligente 5.0 | 0 | 20 | 20 |
 | **Total** | | **48** | **72** | **120** |
 
@@ -65,7 +65,7 @@ mínima institucional y **aprobación del proyecto integrador**.
 | Solución de eficiencia, renovables y circularidad | 20 % |
 | Sistema IoT, código y analítica | 15 % |
 | Asistente local de IA y validación | 10 % |
-| Imagen, video y modelo 3D | 10 % |
+| Imagen y modelo 3D | 10 % |
 | Viabilidad, riesgos y plan de implementación | 10 % |
 | Informe, repositorio y sustentación | 10 % |
 | **Total** | **100 %** |
@@ -81,10 +81,9 @@ mínima institucional y **aprobación del proyecto integrador**.
 7. Código fuente documentado para análisis, visualización, pronóstico o automatización.
 8. Asistente local RAG con corpus, citas, conjunto de pruebas y ficha de modelo.
 9. Producto visual: imagen técnica, infografía o secuencia explicativa.
-10. Video corto de capacitación, presentación del sistema o comunicación del proyecto.
-11. Modelo 3D depurado y archivo fuente, obtenido por modelado, fotogrametría o reconstrucción generativa.
-12. Evaluación financiera preliminar con supuestos, sensibilidad, riesgos y plan de implementación.
-13. Informe técnico, resumen ejecutivo, repositorio y sustentación final.
+10. Modelo 3D depurado y archivo fuente, obtenido por modelado, fotogrametría o reconstrucción generativa.
+11. Evaluación financiera preliminar con supuestos, sensibilidad, riesgos y plan de implementación.
+12. Informe técnico, resumen ejecutivo, repositorio y sustentación final.
 
 ### Criterio de autenticidad
 
