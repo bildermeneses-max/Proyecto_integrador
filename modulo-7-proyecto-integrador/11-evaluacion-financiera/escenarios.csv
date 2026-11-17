@@ -1,0 +1,6 @@
+escenario,descripcion,inversion_cop,ahorro_anual_cop,cobertura_pct,retorno_anios,flujo_anio10_cop,flujo_anio15_cop,fuente
+A_sistema_individual,tarifa_constante_con_OM,18500000,1577132,100.0,11.7,-2728682,5156977,informe_tecnico
+B_sistema_individual,tarifa_mas_4_pct_anual_con_OM,18500000,1577132,100.0,9.7,806343,14009201,informe_tecnico
+C_sistema_individual,inversion_menos_20_pct_con_OM,14800000,1577132,100.0,9.4,971318,8856977,informe_tecnico
+D_compartida_con_bateria,segunda_vivienda_mas_interconexion,20000000,3140000,89.0,6.8,,,idea_solucion
+E_compartida_sin_bateria,segunda_vivienda_conectada_a_red,12200000,3250000,,3.9,,,idea_solucion
