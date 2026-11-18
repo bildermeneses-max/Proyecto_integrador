@@ -20,6 +20,7 @@ mediciones horarias, cuadernos de EDA/red neuronal y código Gradio/Streamlit.
 | Informe técnico y resumen ejecutivo | ✅ Incluidos |
 | Asistente RAG ejecutado con citas y pruebas | 🟡 Estructura y plan listos; falta ejecutar y validar |
 | Producto visual (infografía real del caso) | ✅ Imagen y ficha de procedencia incluidas |
+| Presentación dinámica (HTML + PDF de 15 diapositivas) | ✅ Incluida; gráficos reales y cifras verificadas |
 | Modelo 3D depurado + fuente | 🟡 Pendiente de generar y documentar procedencia |
 
 > **Seguridad:** el cuaderno original `Untitled17.ipynb` contenía un token de ngrok hardcodeado.
@@ -36,7 +37,7 @@ mediciones horarias, cuadernos de EDA/red neuronal y código Gradio/Streamlit.
 | 4 | Economía circular, ciclo de vida y carbono | 16 | 12 % | Mapa circular y carbono |
 | 5 | IA local, datos, RAG y código | 18 | 15 % | Código, dashboards y asistente |
 | 6 | IA generativa multimodal, 2D a 3D | 18 | 13 % | Imagen y modelo 3D |
-| 7 | Proyecto integrador | 20 | 25 % | 12 entregables + informe y sustentación |
+| 7 | Proyecto integrador | 20 | 25 % | 13 entregables + informe y sustentación |
 | **Total** | | **120** | **100 %** | |
 
 La progresión es deliberada: los módulos 1–4 construyen criterio energético, normativo y circular;
@@ -64,10 +65,11 @@ el 5 aporta datos e IA local; el 6 produce comunicación multimodal; el 7 integr
     ├── 09-producto-visual/
     ├── 10-modelo-3d/
     ├── 11-evaluacion-financiera/
-    └── 12-informe-sustentacion/  ← informe original y resumen
+    ├── 12-informe-sustentacion/  ← informe original y resumen
+    └── 13-presentacion-diapositivas/ ← HTML dinámico, PDF y gráficos
 ```
 
-Cada módulo tiene su `README.md`. El README del módulo 7 mapea los 12 entregables a su carpeta,
+Cada módulo tiene su `README.md`. El README del módulo 7 mapea los 13 entregables a su carpeta,
 archivo y criterio de la rúbrica.
 
 ## Resultados centrales del caso
@@ -98,6 +100,9 @@ python modulo-7-proyecto-integrador/07-codigo-analitica/analisis_consumo.py
 streamlit run modulo-7-proyecto-integrador/06-iot-demostrador/dashboard_streamlit.py
 python modulo-7-proyecto-integrador/06-iot-demostrador/dashboard_gradio.py
 ```
+
+Para ver la sustentación visual, abrir `modulo-7-proyecto-integrador/13-presentacion-diapositivas/index.html`
+o su PDF. Los gráficos se regeneran con `python .../13-presentacion-diapositivas/generar_graficos.py`.
 
 Los dashboards leen el dataset desde `modulo-7-proyecto-integrador/02-linea-base/datos/` mediante una
 ruta relativa al repositorio. Para publicar un túnel con ngrok, configurar `NGROK_AUTHTOKEN` en el
