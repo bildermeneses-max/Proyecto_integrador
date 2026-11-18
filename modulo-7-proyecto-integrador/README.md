@@ -20,6 +20,7 @@
 | 10 | Modelo 3D depurado + fuente | `10-modelo-3d/` | 🟡 PENDIENTE | Imagen/3D 10 % |
 | 11 | Evaluación financiera, sensibilidad y plan | `11-evaluacion-financiera/` | ✅ | Viabilidad 10 % |
 | 12 | Informe, resumen, repositorio y sustentación | `12-informe-sustentacion/` | ✅ | Informe 10 % |
+| 13 | Presentación dinámica (HTML + PDF) y gráficos | `13-presentacion-diapositivas/` | ✅ 15 diapositivas; PDF verificado | Informe 10 % |
 
 ✅ = evidencia real integrada · 🟡 = estructura lista, falta producto o validación.
 
@@ -48,6 +49,7 @@
    `07-codigo-analitica/dashboard_vercel/README.md`.
 7. **Evaluamos** retorno del sistema individual y de la propuesta compartida (`11-evaluacion-financiera/`).
 8. **Comunicamos** en el informe y el resumen ejecutivo (`12-informe-sustentacion/`).
+9. **Sustentamos** con 15 diapositivas visuales, gráficos reproducibles y PDF (`13-presentacion-diapositivas/`).
 
 ## Autenticidad y seguridad
 
@@ -58,13 +60,14 @@
 
 ## Checklist de cierre
 
-- [x] Los entregables 1–7, 11 y 12 tienen evidencia real.
+- [x] Los entregables 1–7, 11, 12 y 13 tienen evidencia real.
 - [x] Cada dato tiene origen, unidad y método.
 - [x] El IoT se demuestra con código Arduino y dashboards.
 - [x] La evaluación financiera incluye tres escenarios y sensibilidad.
 - [ ] Ejecutar y documentar el asistente RAG con citas y pruebas negativas.
 - [x] Producto visual incorporado con ficha de procedencia.
 - [x] Código local del dashboard y deploy público documentados con su estado real.
+- [x] Presentación dinámica y PDF generados con cifras verificadas y gráficos reproducibles.
 - [ ] Corregir las funciones serverless del deploy (`/api/kpis` responde 500).
 - [ ] Generar modelo 3D con ficha de procedencia.
 - [ ] Completar bitácora semanal y declaración de IA firmada por cada integrante.
