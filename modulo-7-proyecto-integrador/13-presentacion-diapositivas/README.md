@@ -10,6 +10,7 @@ con gráficos calculados desde los datos reales del caso.
 | `assets/01…08_*.png` | Ocho gráficos generados desde el dataset y los escenarios. |
 | `assets/producto_visual_el_tambo.jpeg` | Copia de la infografía real del caso (ver `../09-producto-visual/README.md`). |
 | `generar_graficos.py` | Script reproducible que regenera los ocho gráficos. |
+| `pitch.md` | Guion de sustentación diapositiva por diapositiva (~5 min), versión relámpago (60 s) y respuestas a preguntas probables. |
 
 ## Cómo verla
 
