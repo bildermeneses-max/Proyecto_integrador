@@ -66,9 +66,12 @@
 
 ### Semana 9 — Comunicación
 
-- **Actividades:** informe técnico y resumen ejecutivo.
-- **Evidencia:** `12-informe-sustentacion/`.
+- **Actividades:** informe técnico, resumen ejecutivo y presentación visual de sustentación.
+- **Evidencia:** `12-informe-sustentacion/` y `13-presentacion-diapositivas/`.
 - **Producto visual:** `09-producto-visual/producto_visual_el_tambo.jpeg` y su ficha de procedencia.
+- **Presentación:** 15 diapositivas en HTML dinámico + PDF 16:9; ocho gráficos regenerados desde el
+  CSV (`generar_graficos.py`). Cifras verificadas; sin ilustraciones IA incluidas (el generador
+  devolvió credencial inválida).
 - **Pendiente:** modelo 3D con ficha de procedencia.
 
 ### Semana 10 — Integración
@@ -89,6 +92,7 @@
 | Asistente de IA de OpenCode | Extracción de rúbrica, armado de estructura, redacción de documentación y saneamiento de secretos | Conversación y prompts en la sesión de trabajo | Repositorio y este archivo | Revisión pendiente de los autores |
 | IA asistiva / código Python | Generación y adaptación de dashboards y análisis | Versiones en `requirements.txt` | `06-iot-demostrador/`, `07-codigo-analitica/` | Ejecución pendiente en entorno local |
 | Red neuronal Keras | Predicción de `total_W` en cuaderno | Arquitectura 64→32→16→1, Adam, 100 épocas, `random_state=42` | `EDANUEV_sanitizado.ipynb` | Interpretación corregida: variable objetivo es aditiva |
+| Generador de ilustraciones IA | Intento de cuatro ilustraciones para la presentación | Sin parámetros conservados: la solicitud devolvió `Invalid credential` | Ninguno; no se incluyeron imágenes sintéticas | Se sustituyeron por infografía real, gráficos del CSV y un esquema SVG propio |
 
 **Regla aplicada:** para cada producto se distingue qué fue **calculado** con datos, qué fue **generado**
 con IA y qué fue **revisado** por una persona. La validación final de los autores queda registrada como
